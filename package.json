@@ -1,0 +1,27 @@
+{
+  "name": "loginpassport",
+  "version": "1.0.0",
+  "description": "Learning using passport for simple authentication system login",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Ginanjar S.B | egin10",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
