@@ -11,9 +11,10 @@ const express = require('express'),
     mongo = require('mongodb'),
     mongoose = require('mongoose');
 
-//connection to mongoDB
+//mongoDB connection
+mongoose.Promise = require('bluebird');
 mongoose.connect('mongodb://localhost/loginapp', {useMongoClient: true});
-db = mongoose.connection;
+let db = mongoose.connection;
 
 //Routes
 const routes = require('./routes/index'),
